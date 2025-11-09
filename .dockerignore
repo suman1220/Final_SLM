@@ -1,3 +1,7 @@
+# Git
+.git/
+.gitignore
+
 # Python
 __pycache__/
 **/__pycache__/
@@ -8,19 +12,10 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-
-# Virtual environments
 venv/
 env/
 ENV/
 .venv
-
-# Model files
-*.gguf
-*.bin
-*.safetensors
-*.pt
-*.pth
 
 # Environment variables
 .env
@@ -37,15 +32,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs and data
 *.log
 *.csv
-
-# Cache and temporary files
-*.cache
-.pytest_cache/
-.mypy_cache/
-*.tmp
+response_cache.json
+response_feedback.json
+merged-Q8_0*.csv
 
 # Backup files
 *.backup
@@ -54,20 +46,8 @@ Thumbs.db
 *_fixed.py
 *.broken_cache
 
-# JSON data files
-response_cache.json
-response_feedback.json
-merged-Q8_0*.csv
-
-# Lock files
-retraining.lock
-
 # Test files
 test_*.py
 
-# Model Files
-model.gguf
-llm/virt/
-virt/
-venv/
-env/
+# Lock files
+retraining.lock

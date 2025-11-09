@@ -1,34 +1,24 @@
-# Core
-flask>=3.0
-requests>=2.31
+# Core Flask dependencies
+Flask==3.1.2
+flask-cors==6.0.1
+Werkzeug==3.1.3
 
-# LLM + embeddings
-sentence-transformers>=2.7
-rank-bm25>=0.2
+# LLM backend
+llama-cpp-python==0.3.16
 
-# PDF parsing
-PyMuPDF>=1.24
+# Environment and configuration
+python-dotenv==1.2.1
 
-# MCP server/client
-fastmcp>=0.2
+# Core Python dependencies
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+itsdangerous==2.2.0
+click==8.3.0
+blinker==1.9.0
 
-# Optional config formats (for --pdf_config .yaml/.yml)
-pyyaml>=6.0
-
-# Optional speed-up for vector search (if wheels are available for your OS/Python)
-# faiss-cpu
-
-# === Core dependencies ===
-pandas>=2.0.0
-
-# === Model backend ===
-llama-cpp-python>=0.2.90   # for Llama model loading and inference
-
-# === CSV / data utilities ===
-numpy>=1.26.0
-
-# === Optional (for local performance / CPU threading) ===
-tqdm>=4.65.0                # progress bars (optional but helpful)
-
-# === Logging & system handling ===
-psutil>=5.9.0
+# Security and utilities
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+urllib3==2.5.0
+requests==2.32.5

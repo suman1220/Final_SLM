@@ -5,7 +5,7 @@ from llama_cpp import Llama
 # ------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------
-MODEL_PATH = r"C:\Users\shri\Documents\Apiphany\SLM\merged-Q8_0 (1).gguf"
+MODEL_PATH = r"C:\Users\shri\Documents\Apiphany\SLM\vineet_geema270_q8_lora_8_r_16"
 CSV_LOG = "model_only.csv"
 QUESTION_FILE = "question.txt"
 

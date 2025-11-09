@@ -1,0 +1,19 @@
+# === Core dependencies ===
+pandas>=2.0.0
+
+# === Model backend ===
+llama-cpp-python>=0.2.80   # for Llama model loading and inference
+
+# === Training pipeline ===
+torch>=2.2.0
+transformers>=4.38.0
+peft>=0.10.0
+
+# === CSV / data utilities ===
+numpy>=1.25.0
+
+# === Optional (for local performance / CPU threading) ===
+tqdm>=4.65.0                # progress bars (optional but helpful)
+
+# === Logging & system handling ===
+psutil>=5.9.0
